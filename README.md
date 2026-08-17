@@ -1,28 +1,29 @@
 # Alethia: Uncaged
-### The Truth That Won't Stay Buried: Fake News & Deepfake Detection System
+### The Reality That Won't Stay Buried: Fake News and Deepfake Detection System
 
-### An Intelligent Multimodal Platform to Detect Fake News, Manipulated Images, Fake Videos, and Cloned Voices
+### An Intelligent Multi-modal Platform to Detect Fake News, Altered Images, Fake Videos, and Cloned Voices
 
 ---
 
 ## Overview
 
-In today's digital world, misinformation spreads faster than a wild fire. A single fake news article, a manipulated photo, or a deepfake video can reach millions of people within minutes before anyone realizes it's purely fictional. **Alethia: Uncaged** is a Python-based, AI-powered solution built to fight this plague head-on.
+In today's digital world, misinformation spreads faster than a wild fire. A single fake news article, a manipulated photo, or a deepfake video can reach millions of people within minutes before anyone realizing it's purely fictional. **Alethia: Uncaged** is a Python-based, AI-powered solution built to fight this plague directly, heads-on.
 
-This project brings together **Natural Language Processing (NLP)** and **Computer Vision (CV)** into one unified system. In simple terms, it reads text the way a human would to judge whether it sounds truthful or misleading, and it looks at images, videos, and audio the way a trained eye would look for signs of tampering: unnatural blinking, blurred edges around a face, robotic-sounding voice patterns, or pixel-level glitches that are invisible to the naked eye but obvious to a well-trained AI model.
+This project brings together **Natural Language Processing (NLP)** and **Computer Vision (CV)** into one Centralized system. In simple terms, it reads text the way a human would to judge whether it sounds truthful or misleading, and it looks at images, videos, and audio the way a trained eye would look for signs of tampering: unnatural blinking, blurred edges around a face, AI generated-sounding voice patterns, or pixel-level glitches that are invisible to the naked eye but obvious to a well-trained AI model.
 
 The goal is simple: **give everyday users (journalists, students, fact-checkers, or curious citizens) a tool where they can paste a news article, upload an image, or drop in a video/audio file, and instantly get a clear verdict: REAL or FAKE, along with a confidence score and a visual explanation of *why* the AI thinks so.**
 
-No AI background needed to use it. No coding knowledge required to understand the results.
+No AI knowledge background needed to use it. No coding knowledge required to understand the results.
 
 ---
 
 ## Why This Project Matters
 
+Remember Michael Jackson's Tabloid Junkie song...? this is more like what he wanted from that song to this world!
 - Fake news can influence elections, public health decisions, and social harmony.
 - Deepfake videos and cloned voices are increasingly used for scams, blackmail, and impersonation.
 - Most existing detection tools focus on only ONE type of content (either text OR images). This project combines everything into a **single, integrated pipeline**.
-- It's designed to be **transparent** — instead of just saying "this is fake," it shows exactly which sentence sounds misleading or which part of an image was altered, using explainable AI techniques like **Grad-CAM heatmaps**.
+- It's designed to be **transparent**: instead of just saying "this is fake," it shows exactly which sentence sounds misleading or which part of an image was altered, using explainable AI techniques like **Grad-CAM heatmaps**.
 
 ---
 
