@@ -131,6 +131,6 @@ This entire project is built using **Python**, chosen for its rich ecosystem of 
 
 ## License
 
-This project is licensed under the **Apache License 2.0**: a permissive open-source license that allows anyone to freely use, modify, and distribute this software, including for commercial purposes, as long as proper credit is given and license/copyright notices are preserved. It also provides an express grant of patent rights from contributors to users, adding an extra layer of legal protection for both developers and adopters of this project.
+This project is licensed under **Apache License 2.0**: an open-source license that allows anyone to freely use, modify, and distribute this software, including for commercial purposes, as long as proper credit is given to the creator and Creator's copyright notices are preserved. It also provides an express grant of patent rights from contributors to users, adding an extra layer of legal protection for both developers and adopters of this project.
 
 See the [LICENSE](LICENSE) file for the full legal text.
