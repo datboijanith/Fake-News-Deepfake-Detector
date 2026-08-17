@@ -77,7 +77,7 @@ When a user submits content, the appropriate "brain" processes it, produces a pr
 
 ---
 
-## 🏗️ Core Architecture & Technologies
+## Core Architecture & Technologies
 
 | Component | Purpose | Key Technologies |
 |---|---|---|
@@ -91,7 +91,7 @@ When a user submits content, the appropriate "brain" processes it, produces a pr
 
 ---
 
-## 🚀 Use Cases
+## Use Cases
 
 - **Journalists & Fact-Checkers**: Quickly verify suspicious articles or viral media before publishing or sharing.
 - **Social Media Platforms**: Integrate as a backend moderation tool to flag suspicious content automatically.
@@ -100,7 +100,7 @@ When a user submits content, the appropriate "brain" processes it, produces a pr
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 
 - Browser extension for one-click verification while browsing social media.
 - Mobile app version for on-the-go fact-checking.
@@ -110,26 +110,26 @@ When a user submits content, the appropriate "brain" processes it, produces a pr
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Whether you're experienced in machine learning, frontend development, or simply want to help improve documentation, feel free to open an issue or submit a pull request. This project is meant to grow as a community effort toward a more trustworthy digital information ecosystem.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This tool provides AI-generated predictions based on patterns learned from training data. While highly accurate, no detection system is 100% perfect. Results should be used as a **supporting tool for judgment**, not as absolute proof, especially in sensitive or high-stakes situations. Always cross-verify critical information through trusted, official sources.
 
 ---
 
-## 🐍 Language
+## Language - Python
 
 This entire project is built using **Python**, chosen for its rich ecosystem of AI/ML libraries (such as PyTorch/TensorFlow, Scikit-learn, Transformers, OpenCV, and FastAPI), making it ideal for building both the NLP and Computer Vision pipelines within a single, unified codebase.
 
 ---
 
-## 📜 License
+## License
 
-This project is licensed under the **Apache License 2.0** — a permissive open-source license that allows anyone to freely use, modify, and distribute this software, including for commercial purposes, as long as proper credit is given and license/copyright notices are preserved. It also provides an express grant of patent rights from contributors to users, adding an extra layer of legal protection for both developers and adopters of this project.
+This project is licensed under the **Apache License 2.0**: a permissive open-source license that allows anyone to freely use, modify, and distribute this software, including for commercial purposes, as long as proper credit is given and license/copyright notices are preserved. It also provides an express grant of patent rights from contributors to users, adding an extra layer of legal protection for both developers and adopters of this project.
 
 See the [LICENSE](LICENSE) file for the full legal text.
