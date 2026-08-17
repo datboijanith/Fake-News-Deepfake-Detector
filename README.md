@@ -27,31 +27,31 @@ Remember Michael Jackson's Tabloid Junkie song...? this is more like what he wan
 
 ---
 
-## What This Project Can Do (Key Features)
+## Key Features of this project,
 
-### 1. Fake News Detection (Text Analysis)
+### 1. Text Analysis - Fake News Detection 
 - Users can paste an article, a headline, or a URL.
 - The system analyzes the writing style, checks for exaggerated or emotionally manipulative language, and cross-references claims.
 - Under the hood, it uses techniques like **TF-IDF**, **transformer-based embeddings (like BERT)**, and **LSTM (Long Short-Term Memory) neural networks** to understand context and detect patterns commonly found in fabricated news.
 - Output: A "REAL" or "FAKE" label with a percentage confidence score, and the specific sentences flagged as suspicious.
 
-### 2. Deepfake Image Detection
-- Users upload a photo (for example, a face-swapped image or an AI-generated photo).
-- The system uses **Convolutional Neural Networks (CNNs)** and advanced architectures like **XceptionNet** or **Vision Transformers (ViTs)** to scan the image pixel by pixel.
+### 2. Deepfaked Image Detection system
+- The User submits a photo: for example, an AI-generated image or an Altered/Photoshopped Photo.
+- The system uses **Convolutional Neural Networks (CNNs)** and advanced platform architectures like **XceptionNet** or **Vision Transformers (ViTs)** to scan the image pixel by pixel.
 - It looks for tell-tale signs of manipulation: unnatural blending around the face, inconsistent lighting/shadows, or repeated pixel patterns that AI generators tend to leave behind.
-- Output: A heatmap overlay (using Grad-CAM) that visually highlights exactly which part of the image looks fake — so even a non-technical user can *see* the evidence, not just read a score.
+- Output: A correlation heat-map overlay that visually highlights exactly which part of the image looks fake which makes a non-technical user can view the evidence, not just read a random score.
 
 ### 3. Deepfake Video Detection
 - Users upload a video clip.
-- The system breaks the video into individual frames and analyzes facial movement, blinking patterns, lip-sync accuracy, and blending artifacts across frames.
-- Real human faces blink and move in naturally irregular ways: deepfakes often get this subtly wrong, and the model is trained to catch it.
+- The system sections/splits the video into sectioned individual frames and analyzes facial movement, blinking patterns, lip-sync accuracy, and blending artifacts across frames.
+- Real human faces blink and move in naturally in various irregular ways: deepfakes often get this wrong, and the model is trained to catch it.
 
-### 4. Deepfake / Cloned Voice Detection
+### 4. Generated/Computerized Voice Detection
 - Users upload an audio clip or the audio track from a video.
-- The system analyzes voice frequency patterns, tone consistency, and background noise artifacts to determine whether the voice was AI-generated or cloned.
+- The system analyzes voice frequency patterns, tone consistency, and background noise artifacts to determine whether the voice was created using AI or whether it was cloned.
 
 ### 5. Real-Time Confidence Scoring
-- Every prediction whether text, image, video, or audio, comes with a clear confidence percentage (e.g., "92% likely to be FAKE") instead of a vague yes/no answer, so users understand how certain the model actually is.
+- Every prediction whether its text, image, video, or audio, comes with a clear confidence percentage (e.g., "92% likely to be FAKE") instead of a vague yes/no answer, so users understand how certain the model actually is.
 
 ### 6. Explainable AI (XAI)
 - Instead of being a "black box," the system explains its reasoning:
